@@ -1,0 +1,20 @@
+{
+  "name": "discord-invite-tracker",
+  "version": "1.0.0",
+  "description": "Discord bot that tracks invites and logs joins automatically",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register-commands": "node src/register-commands.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["discord", "bot", "invite-tracker"],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
