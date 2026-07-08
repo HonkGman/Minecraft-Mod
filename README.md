@@ -2,6 +2,8 @@
 
 Automatically logs when someone joins your Discord server, shows who invited them, and keeps a running invite count for each member.
 
+> **Setup checklist:** [SETUP_CHECKLIST.md](./SETUP_CHECKLIST.md) — tick each step off as you go (works on iPhone via GitHub).
+
 ## What it does
 
 - Posts a join log when a new member arrives (who joined, who invited them, total invites)
